@@ -36,6 +36,6 @@ if parameters_dict['make_npy_files']:
     _, _, _ = create_dataloaders(make_npy_files=parameters_dict['make_npy_files'])
 ```
 
-Once finished, change ******make_npy_files****** to True and run the cells from the beginning.
+Once finished, change ******make_npy_files****** to False and run the cells from the beginning.
 
 Now you will be able to correctly run the notebook.
