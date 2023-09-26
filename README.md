@@ -12,3 +12,21 @@ The goal therefore becomes to have the minimal difference between CLSs, defined 
 The chosen dataset is Modelnet40 amidst the ones proposed by the paper. More specifically 12 views for each render of the pointcloud files.
 </p>
 
+## Running the experiment
+
+All the code needed to run training, evaluation and testing of the experiment is contained in a single notebook. In order to run the code correctly, follow these steps:
+
+1. Create a main directory and place the notebook there
+2. Download the ModelNet dataset [here](http://supermoe.cs.umass.edu/shape_recog/shaded_images.tar.gz) (or follow the below commands), extract the dataset and place it in the main folder.
+3. Create a logging and checkpoints folder.
+
+You can replicate the above steps using these instructions:
+
+```bash
+mkdir greedy_multimodal_learning_main
+cd greedy_multimodal_learning_main
+curl -o ModelNet.tar.gz http://supermoe.cs.umass.edu/shape_recog/shaded_images.tar.gz
+mkdir logging checkpoints
+```
+
+Now you will be able to correctly run the notebook.
