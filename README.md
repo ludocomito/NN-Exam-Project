@@ -29,4 +29,13 @@ curl -o ModelNet.tar.gz http://supermoe.cs.umass.edu/shape_recog/shaded_images.t
 mkdir logging checkpoints
 ```
 
+Following the best practice from the original paper, before running the full experiment create a .npy version of the classes in the dataset for efficiency. In order to do it, change the parameter *make_npy_files* to True in order to create the .npy files and execute the cells until the following one:
+
+```python
+if parameters_dict['make_npy_files']:
+    _, _, _ = create_dataloaders(make_npy_files=parameters_dict['make_npy_files'])
+```
+
+Once finished, change ******make_npy_files****** to True and run the cells from the beginning.
+
 Now you will be able to correctly run the notebook.
