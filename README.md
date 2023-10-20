@@ -1,5 +1,6 @@
 
-# NN-Exam-Project
+# Characterizing and Overcoming the Greedy Nature of Learning in Multi-modal Deep Neural Networks
+## Description
 <p>This repository hosts the notebook and all the needed information to replicate the Nerual Networks Exam project based upon the work presented in the seminal paper "Characterizing and Overcoming the Greedy Nature of Learning in Multi-modal Deep Neural Networks" by N. Wu et al. .<br>
   
 The purpose of the study is to prove the probably counterintuitive hypothesis that in the context of multimodal learining methods one modality overcomes the other in a greedy manner, crippling the beneficial effects of said learning methods. The analysis begins with the implementation of an already well known project "MMTM: Multimodal Transfer Module for CNN Fusion" by H.R.V. Joze et al. to which a corrective method is applied to counter its greedy nature. The original MMTM and its proposed correction are run and compared through the use of custom defined metrics aimed at pointing out the distribution of the learning process over the various modalities of the multimodal learning process.<br>
